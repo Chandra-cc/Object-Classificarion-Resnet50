@@ -19,7 +19,9 @@ In the next cell I load the data into training and testing sets for the model cr
     return model_resnet"  
  This is the model that we trained on the cifar datasets. 
  As one can see the base model is the predefined renet50 model pretrained with imagenet dataset.
- 
+# The Dataset is as follows
+Datasets - from keras.datasets import cifar10  
+(x_train, y_train), (x_test, y_test) = cifar10.load_data()  
 # The model Summary
 "model_resnet=resnet_model()  
 model_resnet.compile(loss='binary_crossentropy', optimizer=Adam(), metrics=['accuracy'])  
