@@ -31,5 +31,5 @@ This gives us the model summary containing 23,608,202 parameters with 23,555,082
 "resnet_val_hist = model_resnet.fit(X_train, y_train, epochs = nepoch, batch_size=batch_size, callbacks = [lr_reduce, checkpoint, earlyStopping], validation_split = 0.1, verbose = 2)"  
 The batch size is 32  and the epochs are 100 with early stopping of  patience 10.  
 # Results
-The Training accuracy was 95.16.  
-The testing acuuracy was 93.28  
+The Training accuracy was 95.38.  
+The testing acuuracy was 93.12  
