@@ -5,6 +5,7 @@ The images were imported from keras.datsets containing about 50000 training imaa
 The model was created with Resnet50 as its base model and a GlobalAveragePooling2D layer and a Dense layer with softmax activation.  
 The optimzer was Adam, 100 epochs with batch size of 32 and early stopping with patience of 10 and lr_reduce with factor of 0.1 and     patience of 2 were applied to the network.  
 The training set was split into validation set and tgraining set itself with a validation split = 0.1  
+The link of the Model -https://drive.google.com/open?id=1YgTOLjcFVLSZ2lblueTG7Tf6A21c-IWs
 # The code explanation.
 The first Cell Includes all the import for the creation of the model.  
 It also includes the import of the cifar10 datsets from keras.datsets.  
