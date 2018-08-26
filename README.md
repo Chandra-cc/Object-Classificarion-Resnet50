@@ -24,6 +24,7 @@ In the next cell I load the data into training and testing sets for the model cr
 model_resnet.compile(loss='binary_crossentropy', optimizer=Adam(), metrics=['accuracy'])  
 model_resnet.summary()"  
 This gives us the model summary containing 23,608,202 parameters with 23,555,082 as trainable parameters and rest as non trainable parameters.  
+![Summary](Capture.png)
 # The Model Image
 ![Model](dataset-cover.png)
 # Training Model
